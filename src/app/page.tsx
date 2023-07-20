@@ -12,7 +12,7 @@ export default function Home() {
   })
   return (
     <div className='flex flex-col w-[100vw] h-[100vh]'>
-      <header className='absolute top-0 flex flex-row justify-center w-full gap-2 mx-auto mt-8'>
+      <header className='absolute top-0 flex flex-row justify-center w-full gap-2 mx-auto mt-[2vh] '>
         <button className='w-32 p-2 m-2 bg-red-900 rounded-md'>Home</button>
         <button className='w-32 p-2 m-2 bg-red-900 rounded-md'>About</button>
         <button className='w-32 p-2 m-2 bg-red-900 rounded-md'>Projects</button>

@@ -38,7 +38,7 @@ const ParallaxHome = ({ type }: IParallaxHome) => {
             className='w-[90%] h-[90%]'
           />
         </div>
-        <motion.h2 style={{ y }} className='text-red-500 text-7xl'>
+        <motion.h2 style={{ y }} className='pr-4 -ml-8 text-red-500 text-md sm:text-5xl sm:-ml-20'>
           {`#${type.charAt(0).toUpperCase() + type.slice(1)}`}
         </motion.h2>
         <div className='absolute inset-0 bg-black opacity-40' />
