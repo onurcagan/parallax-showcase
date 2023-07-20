@@ -12,11 +12,11 @@ export default function Home() {
   })
   return (
     <div className='flex flex-col w-[100vw] h-[100vh]'>
-      <header className='absolute top-0 flex flex-row justify-center w-full gap-2 mx-auto'>
-        <button className='w-32 p-2 m-2 bg-purple-600 rounded-md'>Home</button>
-        <button className='w-32 p-2 m-2 bg-purple-600 rounded-md'>About</button>
-        <button className='w-32 p-2 m-2 bg-purple-600 rounded-md'>Projects</button>
-        <button className='w-32 p-2 m-2 bg-purple-600 rounded-md'>Contact</button>
+      <header className='absolute top-0 flex flex-row justify-center w-full gap-2 mx-auto mt-8'>
+        <button className='w-32 p-2 m-2 bg-red-900 rounded-md'>Home</button>
+        <button className='w-32 p-2 m-2 bg-red-900 rounded-md'>About</button>
+        <button className='w-32 p-2 m-2 bg-red-900 rounded-md'>Projects</button>
+        <button className='w-32 p-2 m-2 bg-red-900 rounded-md'>Contact</button>
       </header>
       <main className='flex flex-col items-center justify-center w-full my-auto mt-4 text-center -z-10'>
         <ParallaxHome type={'car'} />

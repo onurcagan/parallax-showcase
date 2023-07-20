@@ -28,7 +28,7 @@ const ParallaxHome = ({ type }: IParallaxHome) => {
         className='rounded-full w-96 h-96 bg-gradient-to-r from-green-400 to-blue-500'
       /> */}
 
-      <section className='relative w-[100vw] h-[100vh] flex justify-center items-center'>
+      <section className='relative w-[100vw] h-[100vh] flex justify-center items-center snap-center' style={{ perspective: 500 }}>
         <div ref={ref}>
           <Image
             alt={`Background img of ${type} type`}
